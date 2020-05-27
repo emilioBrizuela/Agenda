@@ -29,6 +29,7 @@ public class Telefono extends JFrame implements KeyListener, ActionListener {
             btn.setSize(50, 50);
             btn.setLocation(x, y);
             btn.addActionListener(this);
+            btn.addMouseListener(new EventosRaton());
             this.add(btn);
             
             if ((i) % 3 == 0) {
@@ -40,7 +41,6 @@ public class Telefono extends JFrame implements KeyListener, ActionListener {
             
             
         }
-        btn.addMouseListener(new EventosRaton());
         addKeyListener(this);
 
     }
