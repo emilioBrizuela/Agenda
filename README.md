@@ -1,6 +1,8 @@
-#Proyecto java
-Creado por Emilio Brizuela
+# Proyecto Agenda - JAVA
+Creado por Emilio Brizuela.
+
 Programación.
+
 Debe tener al menos 12 botones con los números del 1 al 9 en las tres primeras filas y en la última
 la almohadilla (#), el 0 y el asterisco (*). Se inicializarán los 12 mediante un bucle (no habrá 12
 variables JButton).
